@@ -1,0 +1,13 @@
+FONTS...
+Text Font:font-family: 'Nunito', sans-serif;
+Sub-Heading Text: font-family: 'Lobster', cursive;
+Logo Text: font-family: 'Cookie', cursive;
+Heading Text: font-family: 'DM Serif Display', serif;
+
+COLOR...
+Text Color: color: #404040
+Action Color: color: #cb000
+
+COMMENTS...
+<!-- Start of -->
+<!-- End of -->
