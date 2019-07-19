@@ -41,18 +41,18 @@ body .top-section .container .message {
   color: white;
   padding: 50px 0;
 }
-body .top-section .container .message #heading {
+body .top-section .container .message #header-heading {
   font-family: "DM Serif Display", serif;
   font-size: 3.4vw;
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  body .top-section .container .message #heading {
+  body .top-section .container .message #header-heading {
     font-size: 4.5vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .top-section .container .message #heading {
+  body .top-section .container .message #header-heading {
     font-size: 7vw;
   }
 }
@@ -91,7 +91,7 @@ body .top-section .container .button {
     padding-bottom: 16%;
   }
 }
-body .top-section .container .button #join-btn {
+body .top-section .container .button #top-join-btn {
   text-decoration: none;
   color: white;
   font-weight: 900;
@@ -106,17 +106,17 @@ body .top-section .container .button #join-btn {
   transition: 0.3s linear;
 }
 @media screen and (max-width: 768px) {
-  body .top-section .container .button #join-btn {
+  body .top-section .container .button #top-join-btn {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .top-section .container .button #join-btn {
+  body .top-section .container .button #top-join-btn {
     font-size: 3vw;
     padding: 4% 10%;
   }
 }
-body .top-section .container .button #join-btn:hover {
+body .top-section .container .button #top-join-btn:hover {
   background-color: #800000;
 }
 body .mid-section .container {
@@ -178,36 +178,36 @@ body .mid-section .container .order-in .content {
     margin: 0 auto;
   }
 }
-body .mid-section .container .order-in .content #sub-heading {
+body .mid-section .container .order-in .content #order-sub-heading {
   font-family: "Lobster", cursive;
   font-size: 1.4vw;
   font-weight: 500;
   color: #cb0000;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .order-in .content #sub-heading {
+  body .mid-section .container .order-in .content #order-sub-heading {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .order-in .content #sub-heading {
+  body .mid-section .container .order-in .content #order-sub-heading {
     font-size: 3.4vw;
   }
 }
-body .mid-section .container .order-in .content #heading {
+body .mid-section .container .order-in .content #order-heading {
   font-family: "DM Serif Display", serif;
   font-size: 2.5vw;
   font-weight: 500;
   padding: 20px 0;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .order-in .content #heading {
+  body .mid-section .container .order-in .content #order-heading {
     font-size: 3.5vw;
     padding: 10px 0;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .order-in .content #heading {
+  body .mid-section .container .order-in .content #order-heading {
     font-size: 6vw;
     padding: 20px 0;
   }
@@ -252,23 +252,23 @@ body .mid-section .container .secrets {
     padding: 50px 0;
   }
 }
-body .mid-section .container .secrets #sub-heading {
+body .mid-section .container .secrets #secret-sub-heading {
   font-family: "Lobster", cursive;
   font-size: 1.4vw;
   font-weight: 500;
   color: #cb0000;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets #sub-heading {
+  body .mid-section .container .secrets #secret-sub-heading {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .secrets #sub-heading {
+  body .mid-section .container .secrets #secret-sub-heading {
     font-size: 3.4vw;
   }
 }
-body .mid-section .container .secrets #heading {
+body .mid-section .container .secrets #secrets-heading {
   font-family: "DM Serif Display", serif;
   font-size: 2.5vw;
   font-weight: 500;
@@ -276,13 +276,13 @@ body .mid-section .container .secrets #heading {
   color: #404040;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets #heading {
+  body .mid-section .container .secrets #secrets-heading {
     font-size: 3.5vw;
     padding: 10px 0;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .secrets #heading {
+  body .mid-section .container .secrets #secrets-heading {
     font-size: 6vw;
     width: 80%;
     margin: 0 auto;
@@ -296,7 +296,6 @@ body .mid-section .container .secrets .exclusive {
   justify-content: space-around;
   width: 100%;
   margin: 0 auto;
-  flex-grow: 1 1 1;
   text-align: left;
 }
 @media screen and (max-width: 768px) {
@@ -328,24 +327,24 @@ body .mid-section .container .secrets .exclusive .recipes {
     padding: 20px 0 40px;
   }
 }
-body .mid-section .container .secrets .exclusive .recipes #title {
+body .mid-section .container .secrets .exclusive .recipes #recipe-title {
   font-family: "Nunito", sans-serif;
   font-weight: 900;
   font-size: 1.5vw;
   padding-bottom: 26px;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .recipes #title {
+  body .mid-section .container .secrets .exclusive .recipes #recipe-title {
     font-size: 2vw;
     padding-bottom: 18px;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .secrets .exclusive .recipes #title {
+  body .mid-section .container .secrets .exclusive .recipes #recipe-title {
     font-size: 3vw;
   }
 }
-body .mid-section .container .secrets .exclusive .recipes #description {
+body .mid-section .container .secrets .exclusive .recipes #recipe-description {
   font-family: "Nunito", sans-serif;
   font-size: 1.5vw;
   width: 100%;
@@ -353,17 +352,17 @@ body .mid-section .container .secrets .exclusive .recipes #description {
   line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .recipes #description {
+  body .mid-section .container .secrets .exclusive .recipes #recipe-description {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .secrets .exclusive .recipes #description {
+  body .mid-section .container .secrets .exclusive .recipes #recipe-description {
     font-size: 3.5vw;
   }
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .recipes #description br {
+  body .mid-section .container .secrets .exclusive .recipes #recipe-description br {
     display: none;
   }
 }
@@ -383,24 +382,24 @@ body .mid-section .container .secrets .exclusive .news {
     padding: 20px 0;
   }
 }
-body .mid-section .container .secrets .exclusive .news #title {
+body .mid-section .container .secrets .exclusive .news #news-title {
   font-family: "Nunito", sans-serif;
   font-weight: 900;
   font-size: 1.5vw;
   padding-bottom: 26px;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .news #title {
+  body .mid-section .container .secrets .exclusive .news #news-title {
     font-size: 2vw;
     padding-bottom: 18px;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .secrets .exclusive .news #title {
+  body .mid-section .container .secrets .exclusive .news #news-title {
     font-size: 3vw;
   }
 }
-body .mid-section .container .secrets .exclusive .news #description {
+body .mid-section .container .secrets .exclusive .news #news-description {
   font-family: "Nunito", sans-serif;
   font-size: 1.5vw;
   width: 100%;
@@ -408,17 +407,17 @@ body .mid-section .container .secrets .exclusive .news #description {
   line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .news #description {
+  body .mid-section .container .secrets .exclusive .news #news-description {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .secrets .exclusive .news #description {
+  body .mid-section .container .secrets .exclusive .news #news-description {
     font-size: 3.5vw;
   }
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .news #description br {
+  body .mid-section .container .secrets .exclusive .news #news-description br {
     display: none;
   }
 }
@@ -438,24 +437,24 @@ body .mid-section .container .secrets .exclusive .discounts {
     padding: 20px 0;
   }
 }
-body .mid-section .container .secrets .exclusive .discounts #title {
+body .mid-section .container .secrets .exclusive .discounts #discount-title {
   font-family: "Nunito", sans-serif;
   font-weight: 900;
   font-size: 1.5vw;
   padding-bottom: 26px;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .discounts #title {
+  body .mid-section .container .secrets .exclusive .discounts #discount-title {
     font-size: 2vw;
     padding-bottom: 18px;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .secrets .exclusive .discounts #title {
+  body .mid-section .container .secrets .exclusive .discounts #discount-title {
     font-size: 3vw;
   }
 }
-body .mid-section .container .secrets .exclusive .discounts #description {
+body .mid-section .container .secrets .exclusive .discounts #discount-description {
   font-family: "Nunito", sans-serif;
   font-size: 1.5vw;
   width: 100%;
@@ -463,17 +462,17 @@ body .mid-section .container .secrets .exclusive .discounts #description {
   line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .discounts #description {
+  body .mid-section .container .secrets .exclusive .discounts #discount-description {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .mid-section .container .secrets .exclusive .discounts #description {
+  body .mid-section .container .secrets .exclusive .discounts #discount-description {
     font-size: 3.5vw;
   }
 }
 @media screen and (max-width: 768px) {
-  body .mid-section .container .secrets .exclusive .discounts #description br {
+  body .mid-section .container .secrets .exclusive .discounts #discount-description br {
     display: none;
   }
 }
@@ -496,34 +495,34 @@ body .bottom-section .container {
     padding: 24px 0;
   }
 }
-body .bottom-section .container #sub-heading {
+body .bottom-section .container #signup-sub-heading {
   color: #cb0000;
   font-family: "Lobster", cursive;
   font-size: 1.4vw;
 }
 @media screen and (max-width: 768px) {
-  body .bottom-section .container #sub-heading {
+  body .bottom-section .container #signup-sub-heading {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .bottom-section .container #sub-heading {
+  body .bottom-section .container #signup-sub-heading {
     font-size: 3.4vw;
   }
 }
-body .bottom-section .container #heading {
+body .bottom-section .container #signup-heading {
   color: white;
   font-family: "DM Serif Display", serif;
   font-size: 3.4vw;
   padding: 25px 0;
 }
 @media screen and (max-width: 768px) {
-  body .bottom-section .container #heading {
+  body .bottom-section .container #signup-heading {
     font-size: 4.5vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .bottom-section .container #heading {
+  body .bottom-section .container #signup-heading {
     font-size: 6vw;
     width: 80%;
     margin: 0 auto;
@@ -594,34 +593,34 @@ body .bottom-section .container .friends .left .container .stars {
     padding-bottom: 20px;
   }
 }
-body .bottom-section .container .friends .left .container #quote {
+body .bottom-section .container .friends .left .container #quote1 {
   font-size: 1.5vw;
   line-height: 1.6;
   font-weight: 600;
   padding-bottom: 25px;
 }
 @media screen and (max-width: 768px) {
-  body .bottom-section .container .friends .left .container #quote {
+  body .bottom-section .container .friends .left .container #quote1 {
     font-size: 2.2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .bottom-section .container .friends .left .container #quote {
+  body .bottom-section .container .friends .left .container #quote1 {
     font-size: 3.2vw;
   }
 }
-body .bottom-section .container .friends .left .container #author {
+body .bottom-section .container .friends .left .container #author1 {
   font-family: "Nunito", sans-serif;
   font-size: 1.5vw;
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  body .bottom-section .container .friends .left .container #author {
+  body .bottom-section .container .friends .left .container #author1 {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .bottom-section .container .friends .left .container #author {
+  body .bottom-section .container .friends .left .container #author1 {
     padding-bottom: 25px;
     font-size: 3vw;
   }
@@ -676,43 +675,43 @@ body .bottom-section .container .friends .right .container .stars {
     padding-bottom: 20px;
   }
 }
-body .bottom-section .container .friends .right .container #quote {
+body .bottom-section .container .friends .right .container #quote2 {
   font-size: 1.5vw;
   line-height: 1.6;
   font-weight: 600;
   padding-bottom: 60px;
 }
 @media screen and (max-width: 768px) {
-  body .bottom-section .container .friends .right .container #quote {
+  body .bottom-section .container .friends .right .container #quote2 {
     padding-bottom: 55px;
     font-size: 2.2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .bottom-section .container .friends .right .container #quote {
+  body .bottom-section .container .friends .right .container #quote2 {
     padding-bottom: 25px;
     font-size: 3.2vw;
   }
 }
-body .bottom-section .container .friends .right .container #author {
+body .bottom-section .container .friends .right .container #author2 {
   font-family: "Nunito", sans-serif;
   font-size: 1.5vw;
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  body .bottom-section .container .friends .right .container #author {
+  body .bottom-section .container .friends .right .container #author2 {
     font-size: 2vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .bottom-section .container .friends .right .container #author {
+  body .bottom-section .container .friends .right .container #author2 {
     font-size: 3vw;
   }
 }
 body .bottom-section .container .button {
   padding: 50px 0 40px;
 }
-body .bottom-section .container .button #join-btn {
+body .bottom-section .container .button #btm-join-btn {
   text-decoration: none;
   color: white;
   font-weight: 900;
@@ -727,20 +726,20 @@ body .bottom-section .container .button #join-btn {
   transition: 0.3s linear;
 }
 @media screen and (max-width: 768px) {
-  body .bottom-section .container .button #join-btn {
+  body .bottom-section .container .button #btm-join-btn {
     font-size: 2.4vw;
   }
 }
 @media screen and (max-width: 600px) {
-  body .bottom-section .container .button #join-btn {
+  body .bottom-section .container .button #btm-join-btn {
     font-size: 3.4vw;
     padding: 4% 10%;
   }
 }
-body .bottom-section .container .button #join-btn:hover {
+body .bottom-section .container .button #btm-join-btn:hover {
   background-color: #800000;
 }
-body footer #logo {
+body footer #footer-logo {
   text-align: center;
   font-family: "Cookie", cursive;
   color: #404040;
@@ -753,13 +752,13 @@ body footer #logo {
   padding: 30px 0 0;
 }
 @media screen and (max-width: 768px) {
-  body footer #logo {
+  body footer #footer-logo {
     font-size: 4vw;
     width: 8.5%;
   }
 }
 @media screen and (max-width: 600px) {
-  body footer #logo {
+  body footer #footer-logo {
     font-size: 6vw;
     width: 13%;
   }
