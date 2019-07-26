@@ -2,7 +2,7 @@ body {
   background: white;
 }
 body .top-section {
-  background-image: url("../images/spices.jpg");
+  background-image: url("https://i.postimg.cc/ydKjg8Lp/spices.jpg");
   background-size: 100% 100%;
 }
 body .top-section .container {
@@ -477,7 +477,7 @@ body .mid-section .container .secrets .exclusive .discounts #discount-descriptio
   }
 }
 body .bottom-section {
-  background-image: url("../images/tomatoe-pizza.jpg");
+  background-image: url("https://i.postimg.cc/nLBThDGQ/tomatoe-pizza.jpg");
   background-size: 100% 100%;
 }
 body .bottom-section .container {

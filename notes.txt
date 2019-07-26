@@ -11,3 +11,8 @@ Action Color: color: #cb000
 COMMENTS...
 <!-- Start of -->
 <!-- End of -->
+
+OPTIMIZED IMAGES...
+https://i.postimg.cc/K8KJCVKf/Pepperoni.png
+https://i.postimg.cc/ydKjg8Lp/spices.jpg
+https://i.postimg.cc/nLBThDGQ/tomatoe-pizza.jpg
