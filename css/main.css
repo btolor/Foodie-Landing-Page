@@ -126,7 +126,7 @@ body .mid-section .container {
 body .mid-section .container .order-in {
   display: flex;
   flex-direction: row;
-  padding: 100px 0;
+  padding: 100px 0 20px;
 }
 @media screen and (max-width: 768px) {
   body .mid-section .container .order-in {
@@ -180,7 +180,7 @@ body .mid-section .container .order-in .content {
 }
 body .mid-section .container .order-in .content #order-sub-heading {
   font-family: "Lobster", cursive;
-  font-size: 1.4vw;
+  font-size: 1.8vw;
   font-weight: 500;
   color: #cb0000;
 }
@@ -254,7 +254,7 @@ body .mid-section .container .secrets {
 }
 body .mid-section .container .secrets #secret-sub-heading {
   font-family: "Lobster", cursive;
-  font-size: 1.4vw;
+  font-size: 1.8vw;
   font-weight: 500;
   color: #cb0000;
 }
@@ -498,7 +498,7 @@ body .bottom-section .container {
 body .bottom-section .container #signup-sub-heading {
   color: #cb0000;
   font-family: "Lobster", cursive;
-  font-size: 1.4vw;
+  font-size: 1.8vw;
 }
 @media screen and (max-width: 768px) {
   body .bottom-section .container #signup-sub-heading {
@@ -778,6 +778,185 @@ body footer #copyrights {
   body footer #copyrights {
     font-size: 2vw;
   }
+}
+body .join-form {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .join-form .content-wrapper {
+  width: 40%;
+  background-image: url("../images/breakfast-coffee-coffee-drink-2351274.jpg");
+  background-size: 100% 100%;
+  padding: 5% 3%;
+  border-radius: 10px;
+  position: relative;
+}
+@media screen and (max-width: 800px) {
+  body .join-form .content-wrapper {
+    width: 45% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .join-form .content-wrapper {
+    width: 65% !important;
+  }
+}
+body .join-form .content-wrapper #join-close-btn {
+  text-decoration: none;
+  color: #cb0000;
+  font-size: 2vw;
+  transition: 0.3s;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+body .join-form .content-wrapper #join-close-btn:hover {
+  color: #404040;
+}
+@media screen and (max-width: 800px) {
+  body .join-form .content-wrapper #join-close-btn {
+    top: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .join-form .content-wrapper #join-close-btn {
+    font-size: 2.5vw;
+    top: 5px;
+    right: 10px;
+  }
+}
+body .join-form .content-wrapper .form-container {
+  border: 8px double #cb0000;
+  padding: 5% 10%;
+}
+@media screen and (max-width: 800px) {
+  body .join-form .content-wrapper .form-container {
+    padding: 6% 10% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .join-form .content-wrapper .form-container {
+    padding: 6.5% 10% !important;
+  }
+}
+body .join-form .content-wrapper .form-container #form-title {
+  text-align: center;
+  font-family: "Cookie", cursive;
+  font-size: 4.4vw;
+  font-weight: 800;
+  color: white;
+  border-bottom: 3px solid #cb0000;
+  width: 30%;
+  line-height: 1;
+  margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+  body .join-form .content-wrapper .form-container #form-title {
+    font-size: 6vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .join-form .content-wrapper .form-container #form-title {
+    font-size: 7vw;
+  }
+}
+body .join-form .content-wrapper .form-container #form-msg {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6vw;
+  font-weight: 700;
+  color: black;
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 5% 0 6%;
+  padding: 1%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 800px) {
+  body .join-form .content-wrapper .form-container #form-msg {
+    font-size: 2.3vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .join-form .content-wrapper .form-container #form-msg {
+    font-size: 3vw;
+  }
+}
+body .join-form .content-wrapper .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+body .join-form .content-wrapper .form-container form input {
+  margin-top: 3%;
+  border-radius: 10px;
+  padding: 2% 0 2% 2%;
+  border: 1px solid black;
+  font-size: 1.5vw;
+  font-family: "Nunito", sans-serif;
+}
+@media screen and (max-width: 800px) {
+  body .join-form .content-wrapper .form-container form input {
+    font-size: 2.3vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .join-form .content-wrapper .form-container form input {
+    font-size: 3vw;
+  }
+}
+body .join-form .content-wrapper .form-container form input:focus {
+  border: 2px solid #800000;
+}
+body .join-form .content-wrapper .form-container form span {
+  padding-top: 0.5%;
+  padding-left: 2%;
+  font-style: italic;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3vw;
+  font-weight: 700;
+  color: red;
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  body .join-form .content-wrapper .form-container form span {
+    font-size: 1.8vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .join-form .content-wrapper .form-container form span {
+    font-size: 2vw;
+  }
+}
+body .join-form .content-wrapper .form-container form #join-form-btn {
+  width: 65%;
+  margin: 1% auto 0;
+  border-radius: 50px;
+  border: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: #cb0000;
+  transition: 0.3s;
+  color: white;
+  padding: 3% 0;
+}
+@media screen and (max-width: 800px) {
+  body .join-form .content-wrapper .form-container form #join-form-btn {
+    font-size: 2.3vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .join-form .content-wrapper .form-container form #join-form-btn {
+    font-size: 3vw;
+  }
+}
+body .join-form .content-wrapper .form-container form #join-form-btn:hover {
+  background-color: #800000;
 }
 
 /*# sourceMappingURL=main.css.map */

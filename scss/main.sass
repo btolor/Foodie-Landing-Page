@@ -13,12 +13,20 @@ $action-hover: #800000
 //Background-Image Variables...
 $top-section: 'https://i.postimg.cc/ydKjg8Lp/spices.jpg'
 $bottom-section: 'https://i.postimg.cc/nLBThDGQ/tomatoe-pizza.jpg'
+$join-form: '../images/breakfast-coffee-coffee-drink-2351274.jpg'
 
 //MIXINS...
 // Media Queries Mixin...
 =media($screen)
     @media screen and (max-width: $screen)
         @content
+
+//Font...
+=font($font,$size,$weight,$color)
+    font-family: $font
+    font-size: $size
+    font-weight: $weight
+    color: $color
 
 =logos($align, $font, $color, $size, $border, $height, $width, $weight, $margin, $padding)
     text-align: $align
@@ -143,7 +151,7 @@ body
             .order-in
                 display: flex
                 flex-direction: row
-                padding: 100px 0
+                padding: 100px 0 20px
                 +media(768px)
                     padding: 60px 0
                 +media(600px)
@@ -170,7 +178,7 @@ body
                         +center(90%,0 auto)
                     #order-sub-heading
                         font-family: $sub-header
-                        font-size: 1.4vw
+                        font-size: 1.8vw
                         font-weight: 500
                         color: $actions
                         +media(768px)
@@ -211,7 +219,7 @@ body
                     padding: 50px 0
                 #secret-sub-heading
                     font-family: $sub-header
-                    font-size: 1.4vw
+                    font-size: 1.8vw
                     font-weight: 500
                     color: $actions
                     +media(768px)
@@ -334,7 +342,7 @@ body
             #signup-sub-heading
                 color: $actions
                 font-family: $sub-header
-                font-size: 1.4vw
+                font-size: 1.8vw
                 +media(768px)
                         font-size: 2vw
                 +media(600px)
@@ -474,3 +482,113 @@ body
                 font-size: 2vw
             +media(600px)
                 font-size: 2vw
+    .join-form
+        background: rgba(0, 0, 0, .7)
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        display: flex
+        justify-content: center
+        align-items: center
+        .content-wrapper
+            width: 40% 
+            background-image: url($join-form)
+            background-size: 100% 100%
+            padding: 5% 3% 
+            border-radius: 10px
+            position: relative
+            +media(800px)
+                width: 45% !important
+            +media(600px)
+                width: 65% !important
+            #join-close-btn
+                    text-decoration: none
+                    color: $actions
+                    font-size: 2vw
+                    transition: 0.3s
+                    position: absolute
+                    top: 20px 
+                    right: 20px
+                    &:hover
+                        color: $font-colorB
+                    +media(800px)
+                        top: 10px
+                    +media(600px)
+                        font-size: 2.5vw
+                        top: 5px
+                        right: 10px
+            .form-container
+                border: 8px double $actions
+                padding: 5% 10%
+                +media(800px)
+                    padding: 6% 10% !important
+                +media(600px)
+                    padding: 6.5% 10% !important
+                #form-title
+                    text-align: center
+                    +font($logo,4.4vw,800,$font-colorA)
+                    border-bottom: 3px solid $actions
+                    width: 30%
+                    line-height: 1
+                    margin: 0 auto
+                    +media(800px)
+                        font-size: 6vw
+                    +media(600px)
+                        font-size: 7vw
+                #form-msg
+                    text-align: center
+                    +font($text,1.6vw,700,black)
+                    line-height: 1.5
+                    background: rgba(255, 255, 255, .6)
+                    margin: 5% 0 6%
+                    padding: 1%
+                    border-radius: 10px
+                    +media(800px)
+                        font-size: 2.3vw
+                    +media(600px)
+                        font-size: 3vw
+                form
+                    display: flex
+                    flex-direction: column
+                    input 
+                        margin-top: 3%
+                        border-radius: 10px
+                        padding: 2% 0 2% 2%
+                        border: 1px solid black
+                        font-size: 1.5vw
+                        font-family: $text
+                        +media(800px)
+                            font-size: 2.3vw
+                        +media(600px)
+                            font-size: 3vw
+                    input:focus
+                        border:2px solid $action-hover
+                    span 
+                        padding-top: .5%
+                        padding-left: 2%
+                        font-style: italic
+                        +font($text,1.3vw,700,red)
+                        display: none
+                        +media(800px)
+                            font-size: 1.8vw
+                        +media(600px)
+                            font-size: 2vw
+                    #join-form-btn
+                        width: 65%
+                        margin: 1% auto 0
+                        border-radius: 50px
+                        border: none
+                        font-weight: 800
+                        text-transform: uppercase
+                        background-color: $actions
+                        transition: 0.3s
+                        color: $font-colorA
+                        padding: 3% 0
+                        +media(800px)
+                            font-size: 2.3vw
+                        +media(600px)
+                            font-size: 3vw
+                        &:hover
+                            background-color: $action-hover
+                
