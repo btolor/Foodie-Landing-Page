@@ -785,7 +785,7 @@ body .join-form {
   height: 100%;
   position: absolute;
   top: 0;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
