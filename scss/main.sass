@@ -492,28 +492,31 @@ body
         justify-content: center
         align-items: center
         .content-wrapper
-            width: 40% 
+            width: 25% 
             background-image: url($join-form)
             background-size: 100% 100%
-            padding: 5% 3% 
+            padding: 2% 
             border-radius: 10px
             position: relative
             +media(800px)
                 width: 45% !important
+                padding: 4% 2% 
             +media(600px)
                 width: 65% !important
+                padding: 5% 
             #join-close-btn
                     text-decoration: none
                     color: $actions
-                    font-size: 2vw
+                    font-size: 1.2vw
                     transition: 0.3s
                     position: absolute
-                    top: 20px 
-                    right: 20px
+                    top: 8px 
+                    right: 12px
                     &:hover
                         color: $font-colorB
                     +media(800px)
                         top: 10px
+                        font-size: 1.5vw
                     +media(600px)
                         font-size: 2.5vw
                         top: 5px
@@ -521,15 +524,16 @@ body
             .form-container
                 border: 8px double $actions
                 padding: 5% 10%
+                background: rgba(255, 255, 255, .6)
                 +media(800px)
                     padding: 6% 10% !important
                 +media(600px)
                     padding: 6.5% 10% !important
                 #form-title
                     text-align: center
-                    +font($logo,4.4vw,800,$font-colorA)
+                    +font($logo,3vw,800,$actions)
                     border-bottom: 3px solid $actions
-                    width: 30%
+                    width: 32%
                     line-height: 1
                     margin: 0 auto
                     +media(800px)
@@ -538,9 +542,8 @@ body
                         font-size: 7vw
                 #form-msg
                     text-align: center
-                    +font($text,1.6vw,700,black)
+                    +font($text,1.4vw,800,black)
                     line-height: 1.5
-                    background: rgba(255, 255, 255, .6)
                     margin: 5% 0 6%
                     padding: 1%
                     border-radius: 10px
@@ -552,23 +555,24 @@ body
                     display: flex
                     flex-direction: column
                     input 
-                        margin-top: 3%
+                        margin-top: 5%
                         border-radius: 10px
                         padding: 2% 0 2% 2%
                         border: 1px solid black
-                        font-size: 1.5vw
+                        font-size: 1.2vw
                         font-family: $text
                         +media(800px)
                             font-size: 2.3vw
                         +media(600px)
                             font-size: 3vw
                     input:focus
-                        border:2px solid $action-hover
+                        border: 2px solid $action-hover
+                        outline: none
                     span 
                         padding-top: .5%
                         padding-left: 2%
                         font-style: italic
-                        +font($text,1.3vw,700,red)
+                        +font($text,1vw,700,red)
                         display: none
                         +media(800px)
                             font-size: 1.8vw
@@ -576,7 +580,7 @@ body
                             font-size: 2vw
                     #join-form-btn
                         width: 65%
-                        margin: 1% auto 0
+                        margin: 5% auto 0
                         border-radius: 50px
                         border: none
                         font-weight: 800
